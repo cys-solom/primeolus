@@ -8,6 +8,11 @@ const nextConfig = {
     defaultLocale: 'ar',
     localeDetection: false,
   },
+  experimental: {
+    appDir: true,
+  },
+  distDir: '.next',
+  dir: 'src',
 }
 
 module.exports = nextConfig 
